@@ -1,0 +1,40 @@
+/* shared style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-btn{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: orangered; 
+    border: 0;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulala{
+    color:black;
+    font-size: 45px;
+    font-weight: 800;
+}
+span{
+    color:orangered;
+}
+nav ul{
+    display: flex;
+    /* align-items: center; */
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
